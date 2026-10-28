@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JEEVIKA'S WORLD ✨</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" id="stars"></div>
+
+  <header>
+    <div class="logo">✦ JEEVIKA'S WORLD ✦</div>
+    <div class="subtitle">A little universe made just for you by your daddy.</div>
+  </header>
+
+  <main>
+    <section class="game-card" id="welcome">
+      <div class="moon">🌙</div>
+      <p class="eyebrow">meri princess ko suprises milege</p>
+      <h1>Hey, princess! ✨</h1>
+      <p class="description">
+        princess this is only for you aap daddy ki cute cute bachii ho na isliye
+        
+      </p>
+      <div class="character">🧚🏻‍♀️</div>
+      <button id="startBtn">Enter into JEEVIKA'S WORLD ✨</button>
+      <p class="tiny">Made with lots of love, just for babygirllll ♡</p>
+    </section>
+
+    <section class="game-card hidden" id="game">
+      <div class="hud">
+        <span id="levelText">LEVEL 1</span>
+        <span>✨ <b id="score">0</b></span>
+      </div>
+
+      <div class="progress-track">
+        <div id="progress"></div>
+      </div>
+
+      <div class="world-scene" id="worldScene">
+        <div class="scene-stars">✦　 ·　 ✧　 ·　 ✦</div>
+        <div class="island">🌿 🌼 🍄 🌿</div>
+        <div class="character player" id="player">🧚🏻‍♀️</div>
+        <div class="world-items" id="worldItems"></div>
+      </div>
+
+      <h2 id="levelName">SMILE KARRR NAAA SWEETU</h2>
+      <p class="description" id="mission">
+        Explore this magical garden and find its hidden wonders.
+      </p>
+
+      <div class="controls">
+        <button class="move-btn" id="leftBtn">←</button>
+        <button class="move-btn" id="rightBtn">→</button>
+        <button class="move-btn" id="jumpBtn">↑</button>
+      </div>
+      <p class="tiny">Move around and collect the glowing objects ✨</p>
+
+      <div class="message-box hidden" id="messageBox">
+        <div class="message-icon" id="messageIcon">💌</div>
+        <h2 id="messageTitle">A little message for you</h2>
+        <p id="messageText"></p>
+        <button id="nextBtn">Continue the adventure →</button>
+      </div>
+    </section>
+
+    <section class="game-card hidden" id="ending">
+      <div class="moon">🌌</div>
+      <p class="eyebrow">YOU FOUND THE END OF OUR UNIVERSE</p>
+      <h1>One Last Thing, Jeevika...</h1>
+      <div class="hug-scene">
+        <div class="hug-emoji">🫂</div>
+        <div class="floating-heart">♡</div>
+        <div class="floating-heart second">✦</div>
+      </div>
+      <h2>A Virtual Hug, Just for You</h2>
+      <p class="description">
+        Daddy apni princess ko kabhi bhi kuch akele ni sahne dege daddy 
+        ke samne usey strong banne ki jarurat ni hai woh bs daddy ko hug 
+        kregi aur daddy's little princess ban jayegi hai naaaa.
+        
+      </p>
+      <button id="hugBtn">Chal aaja hug krle 🫂</button>
+      <p class="tiny" id="hugText"></p>
+      <button class="restart-btn" id="restartBtn">Relive Our Little World ↻</button>
+    </section>
+  </main>
+
+  <footer> you're my favourite person. ♡</footer>
+
+  <script src="game.js"></script>
+</body>
+</html>
